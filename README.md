@@ -34,7 +34,7 @@ This project simulates a modern **data warehousing pipeline** that integrates da
 
 ---
 
-## 📚 Key Learnings
+## Key Learnings
 
 - Hands-on experience in **Data Warehouse design** using the **Medallion Architecture**.  
 - Best practices in **data ingestion, validation, and ETL scripting** with error handling.  
@@ -44,7 +44,7 @@ This project simulates a modern **data warehousing pipeline** that integrates da
 
 ---
 
-## 🏭 Translating to a Production Environment
+## Translating to a Production Environment
 
 In a production setup, this architecture can be enhanced using:  
 - **Azure Data Factory** or **Databricks** for scalable ETL orchestration.  
@@ -55,7 +55,7 @@ This architecture easily scales to a **modern cloud ecosystem**, supporting stre
 
 ---
 
-## ✅ Conclusion
+## Conclusion
 
 This project bridges the gap between **data engineering and analytics**, demonstrating how structured data pipelines can drive meaningful business insights.  
 By applying clean architectural principles, consistent naming conventions, and robust data validation, this project builds a strong foundation for enterprise-grade data solutions.
