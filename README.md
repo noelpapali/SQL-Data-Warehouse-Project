@@ -57,6 +57,5 @@ This architecture easily scales to a **modern cloud ecosystem**, supporting stre
 
 ## Conclusion
 
-This project bridges the gap between **data engineering and analytics**, demonstrating how structured data pipelines can drive meaningful business insights.  
-By applying clean architectural principles, consistent naming conventions, and robust data validation, this project builds a strong foundation for enterprise-grade data solutions.
+This project bridges the gap between **data engineering and analytics**, demonstrating how structured data pipelines can drive meaningful business insights. By applying clean architectural principles, consistent naming conventions, and robust data validation, this project builds a strong foundation for enterprise-grade data solutions.
 
