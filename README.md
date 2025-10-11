@@ -1,7 +1,6 @@
 # SQL-Data-Warehouse-Project# 
 
-A complete project demonstrating how to design, build, and analyze a modern **Data Warehouse** using the **Medallion Architecture (Bronze–Silver–Gold layers)**.  
-This project showcases how raw data from multiple sources can be transformed into clean, business-ready datasets for analytics and reporting using **SQL Server**.
+A complete project demonstrating how to design, build, and analyze a modern **Data Warehouse** using the **Medallion Architecture (Bronze–Silver–Gold layers)**. This project showcases how raw data from multiple sources can be transformed into clean, business-ready datasets for analytics and reporting using **SQL Server**.
 
 ---
 
