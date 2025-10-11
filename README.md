@@ -17,11 +17,10 @@ This project showcases how raw data from multiple sources can be transformed int
 
 ## Project Overview
 
-This project simulates a modern **data warehousing pipeline** that integrates data from two systems — **CRM** and **ERP** — to deliver unified business insights.  
+This project simulates a modern **data warehousing pipeline** that integrates data from two systems, **CRM** and **ERP**, to deliver unified business insights.  
 
 ![Data Architecture](./architecture.png)
 
-### Workflow
 1. **Requirement Analysis** – Understanding data sources, use cases, and KPIs.  
 2. **Architecture Design** – Building a layered architecture (Bronze, Silver, Gold).  
 3. **Data Ingestion (Bronze Layer)**  
