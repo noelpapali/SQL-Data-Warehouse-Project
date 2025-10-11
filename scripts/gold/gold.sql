@@ -1,6 +1,10 @@
 
-GO
+
 -- creating dim customers
+
+IF OBJECT_ID('gold.dim_customers', 'V') IS NOT NULL
+DROP VIEW gold.dim_customers;
+GO
 CREATE VIEW gold.dim_customers AS
 SELECT 
 	ROW_NUMBER() OVER(ORDER BY cst_id) AS customer_key,  -- surrogate key
@@ -22,6 +26,8 @@ LEFT JOIN silver.erp_loc_a101 la
 ON ci.cst_key = la.cid;
 
 --creating dim products
+IF OBJECT_ID('gold.dim_products', 'V') IS NOT NULL
+    DROP VIEW gold.dim_products;
 GO
 CREATE VIEW gold.dim_products AS
 SELECT
@@ -43,6 +49,8 @@ WHERE pn.prd_end_date IS NULL;   -- filter out historical data
 
 
 -- creating fact sales table
+IF OBJECT_ID('gold.fact_sales', 'V') IS NOT NULL
+    DROP VIEW gold.fact_sales;
 GO
 CREATE VIEW gold.fact_sales AS
 SELECT
@@ -58,6 +66,6 @@ sls_price AS price
 FROM silver.crm_sale_details sd
 LEFT JOIN gold.dim_products pr ON sd.sls_prd_key = pr.product_number
 LEFT JOIN gold.dim_customers cu ON sd.sls_cust_id = cu.customer_id
-
+GO
 
  
